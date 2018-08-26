@@ -10,7 +10,7 @@ import static io.vavr.API.*;
 import static io.vavr.Predicates.is;
 
 @RestController
-@RequestMapping("/api/token")
+@RequestMapping("/api/tokens")
 class TokenResource {
 
     @GetMapping

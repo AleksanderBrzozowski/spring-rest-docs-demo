@@ -1,0 +1,14 @@
+=== Tokens
+Token's resource checks token validity.
+
+==== Check token validity
+A `GET` request checks token's validity.
+
+
+operation::tokens/check-valid-token[snippets='request-parameters,response-fields']
+===== Valid token check
+operation::tokens/check-valid-token[snippets='curl-request,http-request,http-response']
+===== Invalid token check
+operation::tokens/check-invalid-token[snippets='curl-request,http-request,http-response']
+
+
